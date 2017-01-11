@@ -1,0 +1,79 @@
+<html>
+<head>
+	<link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="skeleton.css">
+    <link href='http://fonts.googleapis.com/css?family=Montez' rel='stylesheet' type='text/css'>
+
+
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Fixed Width 1 Orange</title>
+		<style type="text/css">
+			html, #page { padding:0; margin:0;}
+			body { margin:0; padding:0; width:100%; color:#959595; font:normal 12px/2.0em Sans-Serif;} 
+			h1, h2, h3, h4, h5, h6 {color:darkorange;}
+			#page { background:#fff;}
+			#header, #footer, #top-nav, #content, #content #contentbar, #content #sidebar { margin:0; padding:0;}
+						
+			
+			/* Header */
+			#header { background:#fff; }
+			#header-inner { margin:0 auto; padding:0; width:400px;}
+			
+			/* Feature */
+/*			.feature { background:orange;padding:18px;}
+			.feature-inner { margin:auto;width:400px; }
+			.feature-inner h1 {color:#ffffff;font-size:20px;}*/
+
+			#feature { margin:0 auto; padding:10px 0; width:400px;background:#fff;}
+			#feature #feature-inner { margin:0; padding:0; float:right; width:100%;}
+			#feature #feature-inner h1 { margin:0 0 24px; padding:0 20px 0 15px; }
+			
+			
+			/* Content */
+			#content-inner { margin:0 auto; padding:10px 0; width:400px;background:#fff;}
+			#content #contentbar { margin:0; padding:0; float:right; width:100%;}
+			#content #contentbar .article { margin:0 0 24px; padding:0 20px 0 15px; }
+			
+			/* Clear both sides to assist with div alignment  */
+			.clr { clear:both; padding:0; margin:0; width:100%; font-size:0px; line-height:0px;}
+		</style>
+		
+	</head>
+	<body>
+		<div id="page">
+			<!-- <header id="header">
+			</header>
+			 -->
+			 	<div class="feature">
+				<div class="feature-inner">
+				<h1 id="demo"></h1>
+
+				<script>
+				var  alert = {"userName":"Brijesh","posture":"Slouching" };
+				document.getElementById("demo").innerHTML ="Hello " + alert.userName  + ". You are  " + alert.posture;
+				//+ alert.userName  ". You are  " + alert.posture
+				</script>
+
+				</div>
+			</div>
+		
+	
+			<div id="content">
+				<div id="content-inner">
+				
+					<main id="contentbar">
+						<div class="article">
+							<h3>SIT UP!!</h3>
+				<p><input type="submit" value="OK :)" class="turquoise-flat-button">
+				</p>
+						</div>
+					</main>
+					
+					<nav id="sidebar">
+						
+					</nav>
+					
+					<div class="clr"></div>
+				</div>
+			</div>	
+</body></html>
